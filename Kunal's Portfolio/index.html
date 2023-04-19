@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IT=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kunal's Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://kit.fontawesome.com/ccf3a42acd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+ <!-- --------------------home------------------------- -->
+
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+            <!-- <p>UT/UX Designer</p> -->
+            <h1>Hi, I'm <span> K</span>unal<br> <span>K</span>ulkarni <br> I'm a <span class="autotype"></span></h1>
+            </div>
+    </div>
+</div>
+
+<!-- --------------------about------------------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMAGE1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello, My name is Kunal Kulkarni. I am from Pune. I am pursuing Computer Engineering from JSCOE. I am a Website Developer and Designer, Android Application Developer and a YouTuber.
+                     I love video editing and I upload videos on YouTube, usually the  videos are regarding gaming. <br><br> All the other necessary details about my projects and certifiactions are uploaded
+                     on GitHub and LinkedIn, you can get the links of my social media accounts in the contact section.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>YouTuber</span><br> Video Creation and Video Editing</li>
+                        <li><span>Website Development</span><br> Web Designing and Web App Development</li>
+                        <li><span>Application Development</span><br> Building Android Apps</li>
+                        <li><span>Others Skills Like:</span><br>Time Management, Event Management, Teaching, etc;</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Teaching</span><br> I have 3+ years of teaching experience at coachings </li>
+                        <li><span>Web Development and Designing</span><br> I have completed Internship at InternPe and Oasis Infobyte in Web Development</li>
+                        <li><span>Android App Development</span><br> I have completed Internship at LetsGrowMore(LGM) and Oasis Infobyte in Android App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Completed 10th</span><br> From Army Public School(APS), Pune </li>
+                        <li><span>Completed Diploma</span><br>From AISSMS Polytechnic, Pune (Comp Dept)</li>
+                        <li><span>Pursuing Engineering</span><br> From JSCOE, Pune(Comp Dept)</li>
+                        <li><span>Other learnings:</span><br>I have completed various courses on the topic Web Development, Android Development and other Programming Languages.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--  -----------portfolio------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/github.jpg">
+                <div class="layer">
+                    <h3>GitHub</h3>
+                    <p>All the projects on which I have worked on and are completed are uploaded on GitHub. <br> <br>   Here is the link for the Github profile.</p>
+                    <a href="https://github.com/Kunal-1786" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/linkedin.jpeg">
+                <div class="layer">
+                    <h3>LinkedIn</h3>
+                    <p>All the updates regarding my weekly activities are posted on LinkdIn profile. There you can get a detailed information about my projects, activities and certifiactions.  <br> <br>   Here is the link for the LinkedIn profile.</p>
+                    <a href="https://www.linkedin.com/in/kunal-kulkarni-a9b706255/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/yt.jpg">
+                <div class="layer">
+                    <h3>YouTube</h3>
+                    <p>Everyone haves a hobby.<br> My hobby is to post videos on YouTube. The videos are regarding gaming content (video editing) as-well-as I spread social awareness through my YouTube channel.  <br> <br>   Here is the link for the YouTube Channel Link. </p>
+                    <a href="https://www.youtube.com/@n1tro." target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/file/d/1Ip6Ij1xNko_WDGgynpgffwoqei1Dbvw_/view?usp=sharing" target="_blank" class="btn"> Download CV</a>
+    </div>
+
+
+ <!--  -----------contact------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle"> Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> kunalaps2002gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kunal-kulkarni-a9b706255/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Kunal-1786" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.youtube.com/@n1tro." target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/bunny_fussion/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/n4_n1tRo" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://discord.com/invite/RKwHsjwVeV" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <br><br>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"> </textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                        <button type="reset" class="btn3">Reset</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright &copy; 2023 by Kunal | All Right Reserved. </p>
+    </div>
+</div>
+
+ <!--  -----------Scripts------------- -->
+
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed('.autotype', {
+        strings: ['YouTuber','Web Developer','Android Developer'],
+        typedSpeed:100,
+        backSpeed:100,
+        backDelay:1000,
+        loop:true
+    })
+</script>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbze0vrIFWNdOMQSQxYVdN1CUi51UHsXD6ZeJyhOpUSY4jaVvv2iibqFns6t5Y7wO45Tfg/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
